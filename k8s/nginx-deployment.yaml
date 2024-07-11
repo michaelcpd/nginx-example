@@ -32,7 +32,7 @@ spec: # especificação do recurso
           resources: # recursos do container
             limits: # limites de recursos
               memory: 128Mi # limite de memória
-              cpu: 0.3 # limite de CPU
+              cpu: 0.4 # limite de CPU
           ports: # portas do container
             - containerPort: 9113 # porta do container que será exposta
               name: metrics # nome da porta
